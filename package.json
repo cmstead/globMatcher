@@ -1,0 +1,18 @@
+{
+  "name": "glob-matcher",
+  "version": "0.1.0",
+  "description": "A glob matching utility for strings to handle a file list post-filter",
+  "main": "src/globMatcher.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "./node_modules/mocha/bin/mocha ./test/*.test.js"
+  },
+  "author": "Chris Stead",
+  "license": "MPL-2.0",
+  "devDependencies": {
+    "chai": "^3.5.0",
+    "mocha": "^2.4.5"
+  }
+}
