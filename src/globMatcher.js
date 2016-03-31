@@ -60,6 +60,7 @@ function checkGlobArray(globSet, value) {
 buildMatcher.signature = 'RegExp => String => Boolean';
 check.signature = 'String, String => Boolean';
 checkArray.signature = 'String, Array[String] => Boolean';
+checkGlobArray.signature = 'Array[String], String => Boolean'
 globToPattern.signature = 'String => RegExp';
 
 module.exports = {
